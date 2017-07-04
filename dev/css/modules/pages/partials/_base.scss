@@ -1,0 +1,68 @@
+// pages.base
+//
+// base classes for the pages module.
+//
+// Markup: tests/fixtures/pages.hbs
+//
+// Styleguide modules.pages
+.pages-l {
+  background-size: 72%;
+  background-position: 50% -60%;
+  background-repeat: no-repeat;
+  width: 100%;
+  @media all and ( min-width: 383px ) {
+    background-position: 50% -20%;
+  }
+  @media all and ( min-width: 667px ) {
+    background-position: 50% 0;
+  }
+  > * {
+    @include inline-block();
+    margin-bottom: 2%;
+    margin-right: -4px;
+    margin-top: 2%;
+    vertical-align: top;
+    width: 25%;
+  }
+}
+
+.pages-l-1 {
+
+}
+
+.pages-l-2 {
+
+}
+
+.pages-l-3 {
+
+}
+
+.pages-l-4 {
+
+}
+
+.pages-number {
+  @include border-radius( 15px );
+  border-style: solid;
+  border-width: 2px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  @media all and ( min-width: 383px ) {
+    @include border-radius( 20px );
+    height: 40px;
+    width: 40px;
+  }
+  @media all and ( min-width: 667px ) {
+    @include border-radius( 25px );
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.pages-heading {
+  margin-top: 0.5rem;
+}

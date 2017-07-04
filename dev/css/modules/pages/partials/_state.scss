@@ -1,0 +1,15 @@
+// pages.state
+//
+// state classes for the pages module.
+//
+// Markup: tests/fixtures/pages.hbs
+//
+// Styleguide modules.pages.state
+.pages-active {
+  .pages-number {
+    background-color: $blue-pacificblue;
+  }
+  .pages-heading {
+    color: $blue-bluebayoux;
+  }
+}

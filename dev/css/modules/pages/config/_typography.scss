@@ -1,0 +1,45 @@
+.pages-l {
+
+}
+
+.pages-l-1 {
+
+}
+
+.pages-l-2 {
+
+}
+
+.pages-l-3 {
+
+}
+
+.pages-l-4 {
+
+}
+
+.pages-number {
+  @include adjust-font-size-to( 12px );
+  text-align: center;
+  line-height: 1.7rem;
+  @media all and ( min-width: 383px ) {
+    @include adjust-font-size-to( 14px );
+    line-height: 2.3rem;
+  }
+  @media all and ( min-width: 667px ) {
+    @include adjust-font-size-to( 16px );
+    line-height: 3rem;
+  }
+}
+
+.pages-heading {
+  @include adjust-font-size-to( 12px );
+  font-weight: normal;
+  text-align: center;
+  @media all and ( min-width: 512px ) {
+    @include adjust-font-size-to( 14px );
+  }
+  @media all and ( min-width: 667px ) {
+    @include adjust-font-size-to( 16px );
+  }
+}

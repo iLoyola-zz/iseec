@@ -1,0 +1,31 @@
+.pages-l {
+  background-color: rgb( 254, 255, 255 );
+  @include filter-gradient( #feffff, #feffff, vertical );
+  @include background-image( linear-gradient( top, rgb( 254, 255, 255 ) 0%,rgb( 254, 255, 255 ) 47%, rgb( 163, 167, 171 ) 49%,rgb( 163, 167, 171 ) 55%, rgb( 254, 255, 255 ) 57%, rgb( 254, 255, 255 ) 100% ) );
+}
+
+.pages-l-1 {
+
+}
+
+.pages-l-2 {
+
+}
+
+.pages-l-3 {
+
+}
+
+.pages-l-4 {
+
+}
+
+.pages-number {
+  background-color: $grey-iron;
+  border-color: $grey-iron;
+  color: $white-white;
+}
+
+.pages-heading {
+  color: $grey-iron;
+}
